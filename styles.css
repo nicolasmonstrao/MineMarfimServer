@@ -1,0 +1,204 @@
+
+body {
+    background: linear-gradient(to left, rgba(49, 80, 216, 0.5), rgba(190,164,201, 0.5)), url('stevefoxbackground.jpg');
+    background-size: contain;
+    background-position: left center;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+}
+
+.title {
+    text-align: center;
+    position: absolute;
+    top: 60px;
+    left: 60%;
+    transform: translate(-50%, -50%);
+    
+    padding: 20px; /* Adicione preenchimento à sua div se desejar */
+    border-radius: 10px; /* Adicione borda arredondada à sua div se desejar */
+}
+p {
+    background-color: black;
+    border-radius: 10px;
+}
+
+#ModpackDowloadlink{
+    width: 300px;
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    top: 100px; /* Ajuste a distância do topo conforme necessário */
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #009f95 ;
+    color: #fff;
+    border-color: #612509;
+}
+
+#ModpackDowloadlink:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) ao passar o cursor sobre o botão */
+    background-color: #612509;
+    border-color: #009f95;
+
+}
+#TLauncherDownloadlink {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    top: 180px; /* Ajuste a distância do topo conforme necessário */
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #009f95 ;
+    color: #fff;
+    border-color: #612509;
+
+}
+#TLauncherDownloadlink:hover{
+    transform: scale(1.2); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) ao passar o cursor sobre o botão */
+    background-color: #612509;
+    border-color: #009f95;
+
+}
+#ResourcePackslink {
+    position: absolute;
+    top: 260px; /* Ajuste a distância do topo conforme necessário */
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #ff8f04 ;
+    color: #fff;
+    border-color: #612509;
+
+
+}
+#ResourcePackslink:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) ao passar o cursor sobre o botão */
+    background-color: #612509;
+    border-color: #ff8f04;
+}
+#CurseForgelink{
+    width: 300px;
+    position: absolute;
+    top: 340px; /* Ajuste a distância do topo conforme necessário */
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #c71218 ;
+    color: #fff;
+    border-color: #ffffff;
+    
+}
+#CurseForgelink:hover{
+    transform: scale(1.2); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) ao passar o cursor sobre o botão */
+    background-color: #fff;
+    border-color: #c71218;
+    color: black;
+}
+
+/* Estilos para a modal */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.9);
+}
+
+.modal-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/* Estilos para o botão */
+#tutorialButton {
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    position: absolute;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    right: 90px; /* Ajuste a distância da direita conforme necessário */
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: #9bc463 ;
+    color: #fff;
+    border-color: #3b4b28;
+}
+#tutorialButton:hover {
+    transform: scale(1.2); /* Aumenta o tamanho em 10% (pode ajustar conforme necessário) ao passar o cursor sobre o botão */
+    background-color: #3b4b28;
+    border-color: #9bc463;
+}
+
+/* Estilos para fechar a modal */
+.close {
+    color: #ffffff;
+    float: right;
+    font-size: 90px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* ... (código anterior) ... */
+.arrow {
+    font-size: 70px;
+    background: none;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+}
+
+#prevButton {
+    position: absolute;
+    left: 10px;
+}
+
+#nextButton {
+    position: absolute;
+    right: 10px;
+}
+/* ... (código anterior) ... */
+#CurseForgelink
+#ModpackDowloadlink,
+#TLauncherDownloadlink,
+#ResourcePackslink,
+#tutorialButton {
+    width: 300px; /* Defina a largura desejada para os botões */
+}
+#CurseForgelink
+#ModpackDowloadlink:hover,
+#TLauncherDownloadlink:hover,
+#ResourcePackslink:hover,
+#tutorialButton:hover {
+    transform: scale(1.2);
+}
